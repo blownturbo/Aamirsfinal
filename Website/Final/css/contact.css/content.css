@@ -1,78 +1,94 @@
 
-.card-flex-article .card-divider {
+.large-article-header {
+  background: url("https://drivetribe.imgix.net/e8yGJopDR92uvkQcp9nEag?w=600&h=600&fm=pjpg&auto=compress&fit=crop&crop=faces,edges")  center;
+  background-size: cover;
+  height: 31.25rem;
+  position: center;
+
+
+@media screen and (max-width: 39.9375em) {
+  .large-article-header {
+    height: 20.83333rem;
+  }
+}
+
+.large-article-header-content {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  background: transparent;
-}
-
-.card-flex-article .card-divider p {
-  margin-bottom: 0;
-}
-
-.card-flex-article .card-divider .avatar {
-  margin-right: 0.75rem;
-}
-
-.card-flex-article .avatar {
-  position: relative;
-}
-
-.card-flex-article .avatar img {
-  border-radius: 50%;
-}
-
-.card-flex-article .avatar.with-add-icon .fa {
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   position: absolute;
-  bottom: 0;
+  bottom: 3.125rem;
+  left: 0;
   right: 0;
-  color: #cc4b37;
 }
 
-.card-flex-article .card-actions .fa:not(:last-of-type) {
-  margin-right: 1rem;
+@media screen and (max-width: 39.9375em) {
+  .large-article-header-content {
+    bottom: 1.25rem;
+  }
 }
 
-.card-flex-article .card-image {
-  position: relative;
+.large-article-header-content .center-container {
+  width: 50%;
+  margin: 0 auto;
 }
 
-.card-flex-article .card-tag {
-  position: absolute;
-  bottom: 1rem;
-  left: 1rem;
-  text-transform: uppercase;
-  font-weight: bold;
-  border-radius: 3%;
+@media screen and (max-width: 39.9375em) {
+  .large-article-header-content .center-container {
+    width: 100%;
+    padding: 0 1.25rem;
+  }
 }
 
-.card-flex-article .card-section .article-title {
-  font-family: 'Merriweather', serif;
-  font-weight: bold;
-  font-size: 1.75rem;
-  margin-bottom: 0;
+.large-article-header-content .article-date {
+  color: #fefefe;
 }
 
-.card-flex-article .card-section .article-details {
-  font-size: 0.75rem;
-  opacity: 0.5;
-  padding-bottom: 0.75rem;
+.large-article-header-content .article-title h1 {
+  line-height: 3.125rem;
+  color: #fefefe;
+  font-weight: 600;
 }
 
-.card-flex-article .card-section .article-summary {
-  font-family: 'Merriweather', serif;
+@media screen and (max-width: 39.9375em) {
+  .large-article-header-content .article-title h1 {
+    line-height: 1.875rem;
+  }
 }
 
-.card-flex-article .user-info {
-  font-size: 0.75rem;
+.large-article-header-content .article-details {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-.card-flex-article .user-info .user-name {
-  font-weight: bold;
-  margin-bottom: 0;
+.large-article-header-content .article-details a {
+  color: #fefefe;
 }
 
-.card-flex-article .notability {
-  font-size: 0.75rem;
-  opacity: 0.5;
+.large-article-header-content .article-author {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 1rem 0;
+}
+
+.large-article-header-content .article-author img {
+  border-radius: 3.125rem;
+}
+
+.large-article-header-content .article-author a {
+  margin-left: 1rem;
 }

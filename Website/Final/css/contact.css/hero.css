@@ -1,6 +1,6 @@
 
 .hero-section {
-  background: url("http://www.stancenation.com/wp-content/uploads/2013/12/mazda-rx7-fd-stance-6.jpg") 50% no-repeat;
+  background: url("https://www.crankandpiston.com/media/2016/08/Krispy-Media-Pagani-Huayra-LaFerrari-Porsche-918-McLaren-P1-1.jpg") 50% no-repeat;
   background-size: cover;
   height: 60vh;
   text-align: center;
@@ -8,11 +8,11 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .hero-section .hero-section-text {
